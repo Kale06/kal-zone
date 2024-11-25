@@ -8,40 +8,8 @@ type FeatureItem = {
   description: JSX.Element;
 };
 
-const FeatureList: FeatureItem[] = [
-  {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
-];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({ title, Svg, description }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -59,10 +27,40 @@ export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
       <div className="container">
+        <p style={{
+          fontSize: '28px'
+        }}>
+          ✒️ Brief introduction
+        </p>
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+          <p>
+            This is a website filled with rants, opinions, and documentation/guides of tools (WIP) about my experience in journeying through the field of boring tech-stuff and white-collar job. I believe by sharing these opinions I give you (the reader) some prespective and something or two to pick up.
+          </p>
+          <br />
+          <p>
+            I believe that most people that gets into IT blindly/or without prior knowledge gets stuck on knowing what does working in IT/CompSci is actually like, since most of the lectures are mostly theoretical, only through experiments, trial and error, and lots of energy drinks one can fully comprehend on what is it like to be a part of this field's industry.
+          </p>
+          <br />
+          <p>All this aside, you may contact me through one of these mediums:</p>
+          <br />
+          <ul>
+            <li>Discord: <b>kale0602.</b> (preferred)</li>
+            <li><a href='https://my.linkedin.com/in/kaaal'>LinkedIn</a></li>
+            <li><a href='mailto:muhammad.haikal100602@gmail.com'>Email</a></li>
+          </ul>
+        </div>
+        <p style={{
+          fontSize: '28px'
+        }}>
+          ❗ TODOS
+        </p>
+        <div className="row">
+          <ul>
+            <li>Make this homepage a bit more personalized.</li>
+            <li>Create a newslettering feature.</li>
+            <li>Make a budget-friendly CI/CD script for newslettering.</li>
+            <li>Find a way to make the Twitter image metaheaders.</li>
+          </ul>
         </div>
       </div>
     </section>
