@@ -72,7 +72,7 @@ In conclusion, I think the lessons that can be learned from this article can be 
 
 A harsh truth to the reality, although I find it to be realistic on the current job openings, especially on entry-level work.
 
-> *"Sounds like the company you're working for made some [RedactedCoolWord] decisions. :meaculpa: assemble the UI out of 25-110 json objects simultaneously that's what HTML is for :meaculpa:"*
+> *"Sounds like the company you're working for made some [RedactedCoolWord] decisions. assemble the UI out of 25-110 json objects simultaneously that's what HTML is for"*
 >
 > — Some individual I met online that wrangled me with ancient PHP relics
 
