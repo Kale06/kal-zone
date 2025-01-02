@@ -32,15 +32,10 @@ export default function HomepageFeatures(): JSX.Element {
         }}>
           ✒️ Brief introduction
         </p>
-        <div className="row">
+        <div style={{ padding: "15px" }} className="row">
           <p>
-            This is a website filled with rants, opinions, and documentation/guides of tools (WIP) about my experience in journeying through the field of boring tech-stuff and white-collar job. I believe by sharing these opinions I give you (the reader) some prespective and something or two to pick up.
+            This is a currently work in progress website filled with rants, opinions, and documentation/guides of tools about my experience in journeying through the field of tech. I believe by sharing these opinions I give you (the reader) some prespective and knowledge to pick up.
           </p>
-          <br />
-          <p>
-            I believe that most people that gets into IT blindly/or without prior knowledge gets stuck on knowing what does working in IT/CompSci is actually like, since most of the lectures are mostly theoretical, only through experiments, trial and error, and lots of energy drinks one can fully comprehend on what is it like to be a part of this field's industry.
-          </p>
-          <br />
           <p>All this aside, you may contact me through one of these mediums:</p>
           <br />
           <ul>
@@ -58,8 +53,8 @@ export default function HomepageFeatures(): JSX.Element {
           <ul>
             <li>Make this homepage a bit more personalized.</li>
             <li>Create a newslettering feature.</li>
-            <li>Make a budget-friendly CI/CD script for newslettering.</li>
-            <li>Find a way to make the Twitter image metaheaders.</li>
+            <li>Make a budget-friendly script for newslettering.</li>
+            <li>Find a way to make the Twitter image metaheaders for this framework.</li>
           </ul>
         </div>
       </div>
