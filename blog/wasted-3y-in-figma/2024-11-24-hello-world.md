@@ -30,9 +30,9 @@ You might ask
 Well the thing is, most hackathons nowadays focus on *business concepts* rather than technologies that actually existed on this, and most hackathon providers are specially on tight budget constraint so they are not able to organize an event where it would take days-end to accomodate a bunch of students in one hall or room, and thus they have to come out with a solution.
 
 ### Erm... what the Figma?
-> What the [CoolWord that starts with F] is Figma? Figma [CoolWord Again but different]?
+> *"What the [REDACTED] is Figma? Figma [REDACTED]?"*
 >
-> — Some individual I met online that wrangled me with ancient PHP relics
+> — My lovely mentor who wrangled me with dinosaur-grade ancient relics
 
 Introducing Figma, the most budget-friendly accomodating prototyping tool that can *replicate* (I'm saying this word very lightly) on how an application work for normal people to see on how it works on the client-side. Because in the end of a hackathon, it's all about how fancy and unique your solution is *(sometimes even a good solution is thrown out due to bad UI design)*
 
@@ -68,13 +68,13 @@ In conclusion, I think the lessons that can be learned from this article can be 
 
 > *"In the end, you're in IT, so start gutting computers rather than focusing on aesthetics."*
 >
-> — A person from my Infra department that wrangled me to use Alpine on his first day.
+> — A person from my Infra department that wrangled me to write pipelines on his first day.
 
 A harsh truth to the reality, although I find it to be realistic on the current job openings, especially on entry-level work.
 
-> *"Sounds like the company you're working for made some [RedactedCoolWord] decisions. assemble the UI out of 25-110 json objects simultaneously that's what HTML is for"*
+> *"Sounds like the person you're working for made some [REDACTED] decisions. assemble the UI out of 25-110 json objects simultaneously that's what HTML is for"*
 >
-> — Some individual I met online that wrangled me with ancient PHP relics
+> — My lovely mentor who wrangled me with dinosaur-grade ancient relics
 
 This for me stands out, The industry nowadays needs more clean code and optimized codes due to it being mostly written within poor codebases with barely any documentation. Not to mention if you work in finance sectors where so I've heard that they use ancient relics to power up their system (feel free to point out that if and I'm wrong).
 
